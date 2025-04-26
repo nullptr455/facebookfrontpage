@@ -10,6 +10,7 @@ body{
     height: 4.5em;
     width: 100em;
     box-shadow: 2px 2px 2px 2px rgba(6, 0, 0, 0.16);
+    z-index: 10;
 }
 .left img{
     height: 3.5em;
@@ -28,6 +29,7 @@ body{
     align-items: center;
     width: fit-content;
     font-family: Arial, sans-serif;
+    
     }
 
 .search-container input {
@@ -46,10 +48,10 @@ body{
 .home_icon{
         position: absolute;
         top: 10px;
-        left: 27em;
+        left: 27.5em;
         display: flex;
         height: 40px;
-        width: 44em;
+        width: 43em;
         justify-content: space-between;
     }
 .top_icon img{
@@ -87,11 +89,13 @@ body{
     position: absolute;
     top: 5.5em;
     right: 30.5em;
+
     display: flex;
     height: 120px;
     width: 38em;
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px rgba(6, 0, 0, 0.16);
+    align-items: ce;
 }
 #top_search img{
     height: 50px;
@@ -167,4 +171,53 @@ body{
     position: absolute;
     left: 2.8em;
     top: 15px;
+}.first_box{
+    box-shadow: 2px 2px 2px 2px rgba(6, 0, 0, 0.16);
+}
+.first_box #top_picture{
+    background-image: url(kashif.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 16.3em;
+    left: 29em;
+    height: 12em;
+    width: 8.8em;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(6, 0, 0, 0.16);
+}
+
+
+.first_box #white{
+    position: absolute;
+    top: 28.4em;
+    left: 29em;
+    height: 5em;
+    width: 8.8em;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(6, 0, 0, 0.16);
+}
+.first_box #circle{
+    position: absolute;
+    top: 26em;
+    left: 31.7em;
+    background-color:  white;
+    border-radius: 50px;
+    height: 3.5em;
+    width: 3.5em;
+}
+.first_box #fit{
+    background-image: url(circle_14026776.png);
+    background-size: cover;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    border-radius: 50px;
+    height: 2.8em;
+    width: 2.8em;
+}
+.second_box {
+    
 }
