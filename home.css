@@ -88,8 +88,7 @@ body{
     background-color: white;
     position: absolute;
     top: 5.5em;
-    right: 30.5em;
-
+    right: 29.9em;
     display: flex;
     height: 120px;
     width: 38em;
@@ -171,38 +170,43 @@ body{
     position: absolute;
     left: 2.8em;
     top: 15px;
-}.first_box{
-    box-shadow: 2px 2px 2px 2px rgba(6, 0, 0, 0.16);
 }
+
+
+.first_box{
+    box-shadow: 2px 2px 2px 2px rgba(6, 0, 0, 0.16);
+    position: absolute;
+}
+
 .first_box #top_picture{
     background-image: url(kashif.jpg);
     background-size: cover;
     position: absolute;
     top: 16.3em;
-    left: 29em;
+    left: 28em;
     height: 12em;
     width: 8.8em;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     box-shadow: 2px 2px 2px 2px rgba(6, 0, 0, 0.16);
 }
-
-
 .first_box #white{
     position: absolute;
     top: 28.4em;
-    left: 29em;
+    left: 28em;
     height: 5em;
     width: 8.8em;
     background-color: white;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     box-shadow: 2px 2px 2px 2px rgba(6, 0, 0, 0.16);
+    
+    
 }
 .first_box #circle{
     position: absolute;
     top: 26em;
-    left: 31.7em;
+    left: 30.8em;
     background-color:  white;
     border-radius: 50px;
     height: 3.5em;
@@ -217,7 +221,356 @@ body{
     border-radius: 50px;
     height: 2.8em;
     width: 2.8em;
+
 }
-.second_box {
-    
+.first_box #text{
+    position: absolute;
+    top: 2.3em;
+    left: 1.2em;
+    color: black;
+    font-size: 20px;
 }
+/* SECOND BOX */
+.main_box .secondBox{
+    background-color: rgb(184, 176, 176);
+    position: absolute;
+    top: 16.9em;
+    left: 37.9em;
+    width: 8.8em;
+    height: 17.1em;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(6, 0, 0, 0.16);
+    background-image: url(pexels-eberhardgross-1366913.jpg);
+    background-size: cover;
+}
+.secondBox #text{
+    position: absolute;
+    top: 15em;
+    left: 2em;
+    font-weight:bolder;
+    color: white;
+}
+.secondBox #logo{
+    background-color: #046ef8;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    height: 3em;
+    width: 3em;
+    border-radius: 50px;
+}
+.secondBox #Logo{
+    background-color: black;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50px;
+    background-image: url(first_logo.jpg);
+    background-size: cover;
+
+}
+/* THIED BOX */
+.main_box .thirdBox{
+    background-color: rgb(184, 176, 176);
+    position: absolute;
+    top: 16.9em;
+    left: 47.4em;
+    width: 8.8em;
+    height: 17.1em;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(6, 0, 0, 0.16);
+    background-image: url(pexels-eberhardgross-1366919.jpg);
+    background-size: cover;
+}
+.thirdBox #text{
+    position: absolute;
+    top: 15em;
+    left: 2em;
+    font-weight:bolder;
+    color: white;
+}
+.thirdBox #logo{
+    background-color: #046ef8;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    height: 3em;
+    width: 3em;
+    border-radius: 50px;
+}
+.thirdBox #Logo{
+    background-color: black;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50px;
+    background-image: url(second_logo.jpg);
+    background-size: cover;
+
+}
+/* FOURTH BOX */
+.main_box .fourthBox{
+    background-color: rgb(184, 176, 176);
+    position: absolute;
+    top: 16.9em;
+    right: 33.2em;
+    width: 8.8em;
+    height: 17.1em;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(6, 0, 0, 0.16);
+    background-image: url(pexels-todd-trapani-488382-1535162.jpg);
+    background-size: cover;
+}
+.fourthBox #text{
+    position: absolute;
+    top: 15em;
+    left: 2em;
+    font-weight:bolder;
+    color: white;
+}
+.fourthBox #logo{
+    background-color: #046ef8;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    height: 3em;
+    width: 3em;
+    border-radius: 50px;
+}
+.fourthBox #Logo{
+    background-color: black;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50px;
+    background-image: url(fourth_logo.jpg);
+    background-size: cover;
+
+} 
+/* FIFTH BOX */
+.main_box .fifthBox{
+    background-color: rgb(184, 176, 176);
+    position: absolute;
+    top: 16.9em;
+    right: 23.7em;
+    width: 8.8em;
+    height: 17.1em;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(6, 0, 0, 0.16);
+    background-image: url(third_logo.jpg);
+    background-size: cover;
+}
+.fifthBox #text{
+    position: absolute;
+    top: 15em;
+    left: 2em;
+    font-weight:bolder;
+    color: white;
+}
+.fifthBox #logo{
+    background-color: #046ef8;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    height: 3em;
+    width: 3em;
+    border-radius: 50px;
+}
+.fifthBox #Logo{
+    background-color: black;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50px;
+    background-image: url(fifth_logo.jpg);
+    background-size: cover;
+
+}
+.main_picture{
+    background-color: white;
+    position: relative;
+    top: 35em;
+    left: 28em ;
+    height: 55em;
+    width: 41em; 
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(6, 0, 0, 0.16);
+}
+.main_picture #topLogo{
+    position: absolute;
+    top: 1.5em;
+    left: 1.5em;
+    height: 3em;
+    width: 3em;
+    border-radius: 50px;
+    cursor: pointer;
+    background-image: url(pexels-ollivves-1078983.jpg);
+    background-size: cover;
+
+}
+.main_picture a{
+    position: absolute;
+    top: 1.6em;
+    left: 4.5em;
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main_picture #time{
+    position: absolute;
+    top: 3.2em;
+    left: 5em;
+    font-weight: lighter;
+    font-size: 17px;
+}
+.main_picture img{
+    position: absolute;
+    top: 3.5em;
+    left: 8.2em;
+    height: 1em;
+    width: 1em;
+}
+.main_picture #cross{
+    position: absolute;
+    top: 1.5em; 
+    right: 1.5em;
+    height: 3.5em;
+    width: 3.5em;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0px;
+    background-color: white;
+    background-image: url(cross.png);
+    background-size: cover;
+}
+#cross:hover{
+    background-color: rgb(226, 227, 227);
+    transition: 0.7s;
+}
+.main_picture #dot{
+    position: absolute;
+    top: 1.5em; 
+    right: 6em;
+    height: 3.5em;
+    width: 3.5em;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0px;
+    background-color: white;
+    background-image: url(more.png);
+    background-size: cover;
+}
+#dot:hover{
+    background-color: rgb(226, 227, 227);
+    transition: 0.7s;
+}
+.main_picture #large_picture{
+    background-color: #606770;
+    position: absolute;
+    top: 7em;
+    height: 42em;
+    width: 41em;
+    background-image: url(pexels-eberhardgross-1366919.jpg);
+    background-size: cover;
+}
+.main_picture #color_like{
+    position: absolute;
+    bottom:4em; 
+    left: 2.5em;
+    height: 2em;
+    width: 2em;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0px;
+    background-image: url(like_c.png);
+    background-size: cover;
+
+}
+.main_picture #color_thumbs{
+    position: absolute;
+    bottom:4em; 
+    left: 0.8em;
+    height: 2.3em;
+    width: 2.3em;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0px;
+    background-image: url(thumbs-up.png);
+    background-size: cover;
+
+}
+.main_picture #link{
+    position: absolute;
+    top: 44.7em; 
+    left: 4em;
+    height: 2.2em;
+    width: 2.2em;
+    cursor: pointer;
+    font-weight: lighter;
+
+}
+.main_picture #right_share{
+    position: absolute;
+    bottom:4em; 
+    right: 0.8em;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0px;
+    background-color: white;
+    background-image: url(forward.png);
+    background-size: cover;
+}
+.main_picture #link_share{
+    position: absolute;
+    top: 44.7em; 
+    left:32em;
+    height: 2.2em;
+    width: 2.2em;
+    cursor: pointer;
+    font-weight: lighter;
+
+}
+.main_picture #right_comment{
+    position: absolute;
+    bottom:4em; 
+    right: 6.2em;
+    height: 2.3em;
+    width: 2.3em;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 0px;
+    background-color: white;
+    background-image: url(comment.png);
+    background-size: cover;
+}
+.main_picture #link_comment{
+    position: absolute;
+    top: 44.7em; 
+    left:28.7em;
+    height: 2.2em;
+    width: 2.2em;
+    cursor: pointer;
+    font-weight: lighter;
+
+}
+.divider_next {
+    position: absolute;
+    top: 51.5em;
+    left: 3.5%;
+    height: 1px;
+    background-color: #e4e6eb;
+    margin: 10px auto;
+    width: 93%;
+  }
