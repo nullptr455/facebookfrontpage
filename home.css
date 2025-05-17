@@ -1,5 +1,6 @@
 body{
    background-color: aliceblue;
+   font-family: Arial, sans-serif;
    
 }
 .navigation{
@@ -519,7 +520,7 @@ body{
     font-weight: lighter;
 
 }
-.main_picture #right_share{
+.main_picture #right_shareT{
     position: absolute;
     bottom:4em; 
     right: 0.8em;
@@ -573,4 +574,194 @@ body{
     background-color: #e4e6eb;
     margin: 10px auto;
     width: 93%;
+  }.main_picture #left_like{
+    position: absolute;
+    bottom: 0.1em;
+    left: 1.2em;
+    height: 2.1em;
+    width: 10.5em;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: lighter;
+    cursor: pointer;
+    background-color: white;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main_picture #centre_comment{
+    position: absolute;
+    bottom: 0.1em;
+    left: 11.83em;
+    height: 2.1em;
+    width: 10.5em;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: lighter;
+    cursor: pointer;
+    background-color: white;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main_picture #right_share{
+    position: absolute;
+    bottom: 0.1em;
+    right: 1.2em;
+    height: 2.1em;
+    width: 10.5em;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: lighter;
+    cursor: pointer;
+    background-color: white;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main_picture #left_like img{
+    position: absolute;
+    top: 8px;
+    left: 3em;
+    height: 23px;
+    width: 23px;
+}
+.main_picture #centre_comment img{
+    position: absolute;
+    top: 8px;
+    left: 1.8em;
+    height: 30px;
+    width: 30px;
+}
+.main_picture #right_share img{
+    position: absolute;
+    top: 8px;
+    left: 2.8em;
+    height: 25px;
+    width: 25px;
+}
+.main_picture #left_like:hover{
+    background-color: rgb(235, 235, 235);
+    transition: 0.7s;
+}
+.main_picture #centre_comment:hover{
+    background-color: rgb(235, 235, 235);
+    transition: 0.7s;
+}
+.main_picture #right_share:hover{
+    background-color: rgb(235, 235, 235);
+    transition: 0.7s;
+}
+.right_div{
+    position: absolute;
+    right: 0px;
+    background-color: aliceblue;
+    height: 92em ;
+    width: 29.2em;
+    z-index: 1;
+}
+.left_sidebar{
+    position: fixed;
+    top: 5rem;
+    display: grid;
+    padding: 2px;
+    height: 35em;
+    width: 20em;
+    background-color: aliceblue;
+    row-gap: .1rem;
+    
+}
+
+.item{
+  background-color: green;
+  border: #8a888e;
+  border-radius: 10px;
+  display:flex ;
+  justify-content: center;
+    align-items: center;  
+}
+.item:hover{
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+    transition: 0.7s;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 4em;
+    width: 340px;
+    height: 32em;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0.5em auto; 
+    
   }
+  
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    overflow-y: auto;
+  }
+  
+  .menu-item,.profile {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.2s;
+  }
+  .profile:hover{
+    background-color: #e4e6eb;
+    transition: 0.2s;
+  }
+  .menu-item:hover {
+    background-color: #e4e6eb;
+  }
+  
+  .menu-item img {
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+  }
+  .divider3 {
+    position: relative;
+    top: 0.1em;
+    height: 1px;
+    background-color: #b8b8b8;
+    width: 16em;
+  }
+  .your_shortcut{
+  font-family: "Segoe UI", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #5f6368; 
+  margin: 2px 2px 2px 15px;
+  }
+  .menu-item-link{
+  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  color: #65676b;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  cursor: pointer;
+  }
+  .menu-item-link a{
+  cursor: pointer;
+  text-decoration: none;
+  color: #65676b;
+  transition: text-decoration 0.2s;
+  }
+  .menu-item-link a:hover{
+    text-decoration: underline;
+  }
+ 
+
